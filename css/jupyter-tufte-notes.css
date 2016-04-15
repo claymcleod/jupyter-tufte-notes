@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700,300);
+
+#title {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#author {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#date {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Open Sans', 'Fira Sans', sans-serif;
+    font-weight: 300;
+}
+
+.notes {
+    font-family: 'Open Sans', 'Fira Sans', sans-serif;
+    font-style: italic;
+}
+
+div.cell {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.input_prompt, div.output_prompt {
+    margin-left: -11ex;
+}
+
+div.input, div.output_wrapper {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
